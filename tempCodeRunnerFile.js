@@ -1,13 +1,7 @@
-function getMassage(){
-//     // console.log("get massage");  
-//     setTimeout(()=>{
-//         console.log("get massage");
-//     },1000)
-    
-// }
-// function displayMassage(){
-//     console.log("display massage");
-// }
+// sync code 
+// content =[{
+//     type:"organic"
+// }]
 
-// getMassage()
-// displayMassage()
+// fs.writeFileSync('text.JSON',JSON.stringify(content))
+
