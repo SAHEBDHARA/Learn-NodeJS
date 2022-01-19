@@ -32,7 +32,7 @@ const fs = require("fs")
 const server = http.createServer(function(req,res){
  const stream = fs.createReadStream('text.JSON');
 
- // using pipe method we are going to dsend a jonc of data to the http server.
+ // using pipe method we are going to send a junc of data to the http server.
  stream.pipe(res);
 })
 server.listen(3000,()=>{
